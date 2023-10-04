@@ -1,15 +1,15 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Param } from '@nestjs/common';
 import { CommitHistoryBackService } from './commit-history-back.service';
 
 @Controller('commit-history-back')
 export class CommitHistoryBackController {
   constructor(private commitHistoryBackService: CommitHistoryBackService) {}
 
-  @Get()
-  async getCommitHistoryBack() {
+  @Get(':repoName')
+  async getCommitHistoryBack(@Param('repoName') repoName: string) {
     return this.commitHistoryBackService.getCommitHistoryBack(
       'fasaldana',
-      'commitHistoryApp_backend',
+      repoName,
       process.env.GITHUB_ACCESS_TOKEN,
     );
   }
