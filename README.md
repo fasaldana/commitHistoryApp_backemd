@@ -2,6 +2,8 @@
 
 Application that shows the GitHub commit history for this public repository
 
+see the [Frontend version](https://github.com/fasaldana/commitHistoryApp)
+
 ## Installation
 
 >To get a local copy follow these steps in your local machine terminal:
@@ -43,7 +45,6 @@ $ npm run test:cov
 👤 **Fernando Saldaña**
 
 - GitHub: [@fasaldana](https://github.com/fasaldana)
-- Twitter: [@Fernandosal98](https://twitter.com/Fernandosal98)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/fernando-saldana-8bbb89228/)
 
 ## License
