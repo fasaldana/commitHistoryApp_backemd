@@ -7,12 +7,16 @@ see the [Frontend version](https://github.com/fasaldana/commitHistoryApp)
 ## Installation
 
 >To get a local copy follow these steps in your local machine terminal:
-> - `https://github.com/fasaldana/commitHistoryApp_backend.git`
-> - `cd commitHistoryApp_backend`
-
 ```bash
+$ https://github.com/fasaldana/commitHistoryApp_backend.git
+
+$ cd commitHistoryApp_backend
+
 $ npm install
 ```
+
+> - paste this access token as a global variable or in a .env file inside the project
+> - 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
 
 ## Running the app
 
